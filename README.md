@@ -11,7 +11,7 @@ to k8s. Within the definition file it will state the kind or type of definition,
 |---------|-------------|
 | kubectl apply -f &lt;definition-yml&gt; | Configures k8s using hte supplied file |
 | kubectl run &lt;pod name&gt; --image=&lt;image name&gt; | Deploys and application to the cluster |
-| kubectl apply -f &lt;definition-yml&gt; --dry-run=*lt | Configures k8s using hte supplied file |
+| kubectl apply -f &lt;definition-yml&gt; --dry-run | Dry runs the apply |
 
 **Get**
 
@@ -38,10 +38,10 @@ to k8s. Within the definition file it will state the kind or type of definition,
 
 | Command | Description |
 |---------|-------------|
-| kubectl set image &lt;container name&lt;=&lt;new container version&gt; | Perform a rolling update by switching the image |
-| kubectl rollout status &lt;container name&lt; | Check the status of a rolling update |
-| kubectl rollout history &lt;container name&lt; | Check the history of a rolling update |
-| kubectl rollout undo &lt;container name&lt; | Rollback an update |
+| kubectl set image &lt;container name&Gt;=&lt;new container version&gt; | Perform a rolling update by switching the image |
+| kubectl rollout status &lt;container name&gt; | Check the status of a rolling update |
+| kubectl rollout history &lt;container name&gt; | Check the history of a rolling update |
+| kubectl rollout undo &lt;container name&gt; | Rollback an update |
 
 **View/Edit YAML definitions**
 
