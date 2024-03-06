@@ -55,7 +55,7 @@ to k8s. Within the definition file it will state the kind or type of definition,
 | Command | Description |
 |---------|-------------|
 | kubectl replace -f &lt;definition-yml&gt; | Change a replicaset |
-| kubectl scale --replicas=&ltnumber&gt; replicaset &lt;replicaset name&gt; |
+| kubectl scale --replicas=&lt;number&gt; replicaset &lt;replicaset name&gt; |
 
 
 **Information**
